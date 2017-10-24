@@ -1,0 +1,438 @@
+doctype html
+html(lang="ru")
+	head
+		meta(charset="UTF-8")
+		meta(name='viewport' content='width=device-width, initial-scale=1')
+		title Xinwei
+		link(rel='stylesheet' type='text/css' href='css/normalize.css')
+		link(rel='stylesheet' type='text/css' href='css/main.css')
+		link(rel='stylesheet' type='text/css' href='slick/slick.css')
+		link(rel='stylesheet' type='text/css' href='slick/slick-theme.css')
+	body
+		include header
+		section.slider.big-wrapper
+			.slick
+				.slide
+					img(src='img/slider.jpg' alt='alt')
+				.slide
+					img(src='img/slider2.jpg' alt='alt')
+				.slide
+					img(src='img/slider3.jpg' alt='alt')
+				.slide
+					img(src='img/slider3.jpg' alt='alt')
+				.slide
+					img(src='img/slider3.jpg' alt='alt')
+		section.direction
+			.wrapper
+				section.caption__direction
+					h2.secondary-header наши проекты
+					p.general-paragraph Наша компания специализируется в многих направлениях, а именно:
+				.direction-list
+					.direction-item
+						img.direction-item__img-1(src='img/transport.png' alt='alt')
+						h4.fourth-header.bottom-line транспорт
+						p.direction-item__text Государственное предприятие «Администрация транспорта» является государственным унитарным предприятием
+					.direction-item
+						img.direction-item__img-2(src='img/agro.png' alt='alt')
+						h4.fourth-header.bottom-line агро
+						p.direction-item__text.direction-item__text--narrow Вы работаете на земле. Это самое естественное занятие и оно может быть очень продуктивным
+					.direction-item
+						img.direction-item__img-3(src='img/engieneering.png' alt='alt')
+						h4.fourth-header.bottom-line машиностроение
+						p.direction-item__text Все для сезонной консервации лодочных двигателей пока мотор в работе, он защищен от агрессивной среды
+					.direction-item
+						img.direction-item__img-4(src='img/telecom.png' alt='alt')
+						h4.fourth-header.bottom-line телекоммуникации
+						p.direction-item__text Широкое покрытие сети позволяет организовать подключение в 48 странах мира и в 140 городах
+					.direction-item
+						img.direction-item__img-5(src='img/trade.png' alt='alt')
+						h4.fourth-header.bottom-line торговля
+						p.direction-item__text Государственное предприятие «Администрация портов» является государственным унитарным предприятием
+				button.button-more.button-filled Подробнее
+		section#scroll-project.projects
+			nav.sub-nav
+				ul.sub-menu
+					li.sub-menu__item
+						a.sub-menu__link(href='#scroll-transport') Транспорт
+					li.sub-menu__item
+						a.sub-menu__link(href='#scroll-agro') Агро
+					li.sub-menu__item
+						a.sub-menu__link(href='#scroll-engieneering') Машиностроение
+					li.sub-menu__item
+						a.sub-menu__link(href='#scroll-telecom') Телекоммуникации
+					li.sub-menu__item
+						a.sub-menu__link(href='#scroll-trade') Торговля
+			section#scroll-transport.transport.section--indent
+				section.caption
+					h2.secondary-header транспорт
+					p.projects-paragraph Государственное предприятие «Администрация транспорта»  является государственным унитарным предприятием
+				.description.big-wrapper
+					.block-img
+						img.block-img__item(src='img/transport.jpg' alt='alt')
+					.block-content
+						.block-content__wrapper
+							.block-content__item
+								h4.block-content__header Донбасское промышленно-транспортное предприятие
+								p ООО “Донбасское промышленно-транспортное предприятие” (“Донпромтранс”) — один из лидеров рынка строительства и ремонта железнодорожного пути. Ключевые компетенции “Донпромтранс” сосредоточены в сегменте  дорог. “Донпромтранс” успешно работает на рынке с 2001 года.
+								.link-wrapper
+									a.block-content__link-more(href='#') больше о проекте
+			section#scroll-agro.agro.section--indent
+				section.caption
+					h2.secondary-header агро
+					p.projects-paragraph Вы работаете на земле. Это самое естественное занятие и оно может быть очень продуктивным
+				.description.big-wrapper
+					.block-img
+						img.block-img__item(src='img/agro.jpg' alt='alt')
+					.block-content
+						.block-content__wrapper
+							.block-content__item
+								h4.block-content__header Агрохолдинг «Мрия»
+								p «Мрия Агрохолдинг» — один из крупнейших и наиболее эффективных производителей сельскохозяйственной продукции в Украине и мире.
+								.link-wrapper
+									a.block-content__link-more(href='#') больше о проекте
+								h4.block-content__header.description__header--indent.line Агрохолдинг «Avangard»
+								p «AVANGARDCO IPL» является вертикально-интегрированной агропромышленной компанией и занимает лидирующие позиции в секторе производства яиц и яичных продуктов.
+								.link-wrapper
+									a.block-content__link-more(href='#') больше о проекте
+			section#scroll-engieneering.engieneering.section--indent
+				section.caption
+					h2.secondary-header машиностроение
+					p.projects-paragraph Вы работаете на земле. Это самое естественное занятие и оно может быть очень продуктивным
+				.description.big-wrapper
+					.block-img
+						img.block-img__item(src='img/engineering.jpg' alt='alt')
+					.block-content
+						.block-content__wrapper
+							.block-content__item
+								h4.block-content__header Каменский машиностроительный завод
+								p ООО «Каменский машиностроительный завод» расположен в г. Каменка Черкасской области является одним из основных бюджетообразующих предприятий района. Завод был основан в 1936_ году как промышленное предприятие ориентированное на производство шестеренных насосов.
+								.link-wrapper
+									a.block-content__link-more(href='#') больше о проекте
+			section#scroll-telecom.telecommunications.section--indent
+				section.caption
+					h2.secondary-header телекоммуникации
+					p.projects-paragraph Вы работаете на земле. Это самое естественное занятие и оно может быть очень продуктивным
+				.description.big-wrapper
+					.block-img
+						img.block-img__item(src='img/telecommunications.jpg' alt='alt')
+					.block-content
+						.block-content__wrapper
+							.block-content__item
+								h4.block-content__header Укртелеком
+								p Особенно сильные позиции общество имеет на рынке услуг доступа к сети Интернет и фиксированной телефонии. ПАО «Укртелеком» является лидером рынка скоростного фиксированного доступа к сети Интернет и занимает доминирующее положение на рынке фиксированной телефонии.
+								.link-wrapper
+									a.block-content__link-more(href='#') больше о проекте
+			section#scroll-trade.trade.section--indent
+				section.caption
+					h2.secondary-header торговля
+					p.projects-paragraph Вы работаете на земле. Это самое естественное занятие и оно может быть очень продуктивным
+				.description.big-wrapper
+					.block-img
+						img.block-img__item(src='img/trade.jpg' alt='alt')
+					.block-content
+						.block-content__wrapper
+							.block-content__item
+								h4.block-content__header Одесский морской торговый порт
+								p Одесский порт - один из крупнейших портов Черноморско-Азовского бассейна, расположенный в северо-западной части Черного моря на пересечении исторически сложившихся торговых путей Востока и Запада. Порт является лидером по объемам перевалки грузов среди портов Украины и самым крупным пассажирским портом на Черном море.
+								.link-wrapper
+									a.block-content__link-more(href='#') больше о проекте
+		section#scroll-about.about
+			nav.sub-nav
+				ul.sub-menu
+					li.sub-menu__item
+						a.sub-menu__link(href='#scroll-world') Xinwei
+					li.sub-menu__item
+						a.sub-menu__link(href='#scroll-mission') Миссия и ценности
+					li.sub-menu__item
+						a.sub-menu__link(href='#scroll-management') Менеджмент
+			.roll.big-wrapper
+				.caption__roll
+					h3.third-header Пионеры в области развития технологий в течение почти 19 лет
+					p.roll__paragraph Мы известны своими технологиями  и профессиональным подходом к делу, так как компания была основана в 1996 году в Китае. Сегодня Xinwei создает инновационные технологие и помогает развитию бизнеса уже более чем в 10 странах мира.
+			#scroll-world.xinwei-world.big-wrapper
+				.caption__xinwei-world
+					h1.about-header xinwei в мире
+					p.xinwei-world__paragraph Мы построили нашу репутацию на качестве нашей продукции, сила нашей сети и нашей непревзойденной преданности к защите наиболее ценных ресурсов в мире.
+			.xinwei-countries.big-wrapper
+				.xinwei-about.wrapper
+					.xinwei-about__map
+						img.xinwei-about__bg(src='img/bg-world.png' alt='alt')
+					p.xinwei-about__paragraph
+						span.xinwei-about__header «Xinwei» — лидер в сфере инфраструктурного строительства Украины.
+						| Успех и эффективную работу предприятия обеспечивает высокопрофессиональный инженерно-технический персонал и сплоченный трудовой коллектив, имеющий большой опыт работы в данной сфере деятельности. На сегодняшний день 
+						| на предприятиях группы работают около 4 500 человек.
+		section#scroll-mission.mission
+			.wrapper
+				section.caption
+					h2.secondary-header миссия и ценности
+					p.subtitle Как мы достигаем успеха столько лет, и к чему движеться наш большой и целостный организм
+				.mission-content
+					.content-left-column
+						h4.content__header Основная миссия Хinwei в мире
+						p Крупнейшая инвестиционная компания Украины, предоставляющая полный спектр инвестиционно-банковских и брокерских услуг для корпоративных и частных клиентов. Dragon Capital осуществляет брокерские операции с акциями и долговыми инструментами, сопровождение сделок по привлечению капитала, прямые инвестиции и управление активами.
+						p Компания основана в 2000 году в Киеве. Миноритарным пакетом Dragon Capital с 2007 года владеет Goldman Sachs, один из крупнейших мировых банков.
+					.content-right-column
+						h4.content__header Ценности компании в мировом масштабе
+						p С момента своего основания Xinwei активно принимает участие в развитии рынка капитала в нашей стране. Специалисты компании сыграли ключевую роль в привлечении инвесторов к участию в IPO, частных размещениях акций и размещениях долговых инструментов украинских эмитентов.
+						p.content-column__paragraph Кроме того, обладая обширным зарубежным опытом и глубоким пониманием местного рынка, наша команда выступила финансовым советником по ряду крупнейших сделок по слиянию и поглощению в Украине.
+		section#scroll-management.management
+			.small-wrapper
+				section.caption
+					h2.secondary-header менеджмент компании
+					p.subtitle Руководство и административный состав представительства
+				.staff-list
+					.staff__item
+						a.staff__item-link(href='#')
+							img.staff__item-img(src='img/managm-1.png' alt='alt')
+						p.staff__item-info 
+							span.staff__item-name Томаш Фиала
+							span.staff__item-position Генеральный директор
+						div.staff-read-more Томаш Фиала, генеральный директор инвестиционной компании Dragon Capital, имеет более чем двадцатилетний опыт работы на европейских фондовых рынках. В 1994 г., параллельно с учебой в Пражском Университете Экономики, Томаш начал карьеру инвестиционного банкира в Bayerische Vereinsbank в Праге. 
+					.staff__item
+						a.staff__item-link(href='#')
+							img.staff__item-img(src='img/managm-2.png' alt='alt')
+						p.staff__item-info 
+							span.staff__item-name Денис Мацуев
+							span.staff__item-position Торговые операции
+						div.staff-read-more.staff-read-more--indent Денис Мацуев, генеральный директор инвестиционной компании Dragon Capital, имеет более чем двадцатилетний опыт работы на европейских фондовых рынках. В 1994 г., параллельно с учебой в Пражском Университете Экономики, Томаш начал карьеру инвестиционного банкира в Bayerische Vereinsbank в Праге.
+					.staff__item
+						a.staff__item-link(href='#')
+							img.staff__item-img(src='img/managm-3.png' alt='alt')
+						p.staff__item-info 
+							span.staff__item-name Брайан Бест
+							span.staff__item-position Управляющий директор
+						div.staff-read-more Брайан Бест, генеральный директор инвестиционной компании Dragon Capital, имеет более чем двадцатилетний опыт работы на европейских фондовых рынках. В 1994 г., параллельно с учебой в Пражском Университете Экономики, Томаш начал карьеру инвестиционного банкира в Bayerische Vereinsbank в Праге.
+					.staff__item
+						a.staff__item-link(href='#')
+							img.staff__item-img(src='img/managm-4.png' alt='alt')
+						p.staff__item-info 
+							span.staff__item-name Андрей Дмитренко
+							span.staff__item-position Аналитический отдел
+						div.staff-read-more.staff-read-more--indent Андрей Дмитренко, генеральный директор инвестиционной компании Dragon Capital, имеет более чем двадцатилетний опыт работы на европейских фондовых рынках. В 1994 г., параллельно с учебой в Пражском Университете Экономики, Томаш начал карьеру инвестиционного банкира в Bayerische Vereinsbank в Праге.
+					.staff__item
+						a.staff__item-link(href='#')
+							img.staff__item-img(src='img/managm-5.png' alt='alt')
+						p.staff__item-info 
+							span.staff__item-name Андрей Беспятов
+							span.staff__item-position Прямые инвестиции
+						div.staff-read-more Андрей Беспятов, генеральный директор инвестиционной компании Dragon Capital, имеет более чем двадцатилетний опыт работы на европейских фондовых рынках. В 1994 г., параллельно с учебой в Пражском Университете Экономики, Томаш начал карьеру инвестиционного банкира в Bayerische Vereinsbank в Праге. 
+					.staff__item
+						a.staff__item-link(href='#')
+							img.staff__item-img(src='img/managm-6.png' alt='alt')
+						p.staff__item-info 
+							span.staff__item-name Евгений Баранов
+							span.staff__item-position Международные транзакции 	и M&A
+						div.staff-read-more.staff-read-more--indent Евгений Баранов, генеральный директор инвестиционной компании Dragon Capital, имеет более чем двадцатилетний опыт работы на европейских фондовых рынках. В 1994 г., параллельно с учебой в Пражском Университете Экономики, Томаш начал карьеру инвестиционного банкира в Bayerische Vereinsbank в Праге.
+					.staff__item
+						a.staff__item-link(href='#')
+							img.staff__item-img(src='img/managm-7.png' alt='alt')
+						p.staff__item-info 
+							span.staff__item-name Святослав Шеремета
+							span.staff__item-position Руководитель юридического 	отдела
+						div.staff-read-more Святослав Шеремета, генеральный директор инвестиционной компании Dragon Capital, имеет более чем двадцатилетний опыт работы на европейских фондовых рынках. В 1994 г., параллельно с учебой в Пражском Университете Экономики, Томаш начал карьеру инвестиционного банкира в Bayerische Vereinsbank в Праге. 
+					.staff__item
+						a.staff__item-link(href='#')
+							img.staff__item-img(src='img/managm-8.png' alt='alt')
+						p.staff__item-info 
+							span.staff__item-name Олег Кукоба
+							span.staff__item-position Аналитический отдел
+						div.staff-read-more.staff-read-more--indent Олег Кукоба, генеральный директор инвестиционной компании Dragon Capital, имеет более чем двадцатилетний опыт работы на европейских фондовых рынках. В 1994 г., параллельно с учебой в Пражском Университете Экономики, Томаш начал карьеру инвестиционного банкира в Bayerische Vereinsbank в Праге.
+
+		section#scroll-standarts.standarts
+			.wrapper
+				section.caption
+					h2.secondary-header технологии и стандарты
+					p.subtitle Как мы достигаем успеха столько лет, и к чему движется наш большой и целостный организм
+				section.caption
+					h4.standarts__header Внедрение административного состава в упраление предприятием
+					p.standarts__paragraph Мы предлагаем качественную реализацию сделок по привлечению финансирования при помощи всех видов инвестиционно-банковских продуктов. Работая над сделками в практически всех секторах диверсифицированной украинской экономики, Dragon Capital выступает единым поставщиком инвестиционных услуг в Украине, как для средних и крупных предприятий, так и для стратегических инвесторов.
+				.standarts-content
+					.content-left-column
+						h4.content__header Открытые стандарты
+						p Для коммуникации с периферийными устройствами, внешними источниками данных или сторонними решениями все решения GK/Retail используют исключительно стандартизированные процессы и, соответственно, протоколы, такие как Java-POS, Java-RMI, HTTP, TCP/IP или SMTP.
+						p.content-column__paragraph Согласно философии продуктов GK SOFTWARE AG, все GK/Retail решения на 100% созданы на чистой Java, и, тем самым, их можно применять почти с любым оборудованием, а также со всеми распространёнными операционными системами.
+						.link-wrapper
+							a.block-content__link-more(href='#') применение в проекте
+						h4.content__header.content__header--indent-col1 Профессиональный подход
+						p Таким образом, новые компоненты можно очень просто присоединить в виде структурных элементов к общей структуре. Это касается не только GK/Retail-компонентов и функций для клиентов, но и внешних систем. Так, например, с GK/Retail 12 можно очень быстро через дефинированные интерфейсы подсоединить в качестве Core-плагинов системы CRM (системы управления взаимодействием с клиентами), интернет-магазины или новые подсистемы, такие как фискальные принтеры или терминалы EFT (электронный перевод денежных средств). 
+					.content-right-column
+						h4.content__header ARTS технологии будущего
+						p Базой хранения данных GK/Retail является модель данных ARTS. Диапазон и универсальность этой модели данных позволяет почти без ограничений привязывать периферийные устройства и сторонние системы. В результате гарантируется проведение новых бизнес-процессов и простое внедрение сторонних приложений, согласованных с ARTS.
+						p.content-column__paragraph Такие темы как типы товаров (связка/варианты, мода, маркирование) и промоакции отображаются благодаря модели данных также обширно, как и наличие товара или документы управления товарными запасами. GK/Retail поддерживает детерминированный ARTS-комитетом коммуникационный стандарт IXRetail.
+						h4.content__header.content__header--indent-col2 Международные стандарты
+						p GK/Retail Suite полностью базируется на международно признанных и нормированных стандартах с целью обеспечения быстрой и беспрепятственной интеграции в развитые IT-ландшафты, а также максимальной гибкости по отношению к новым требованиям.
+						.link-wrapper
+							a.block-content__link-more(href='#') применение в проекте
+		section#scroll-partners.partners
+			.small-wrapper
+				section.caption
+					h2.secondary-header наши партнеры
+					p.subtitle.subtitle--smaller Компании с которыми мы рады сотрудничать и готовы расширять круг деловых связей
+				ul.partner-list
+					li.partner-list__item
+						.partner-list__item-block-img
+							a.partner-list__link(href='#')
+								img.partner-list__img(src='img/partner-1.png' alt='alt')
+						span.partner-list__name Extel Surveys
+						span.partner-list__name-info Логистическая компания
+					li.partner-list__item
+						.partner-list__item-block-img
+							a.partner-list__link(href='#')
+								img.partner-list__img(src='img/partner-2.png' alt='alt')
+						span.partner-list__name Ukrainian Exschange
+						span.partner-list__name-info Аудиторская компания
+					li.partner-list__item
+						.partner-list__item-block-img
+							a.partner-list__link(href='#')
+								img.partner-list__img(src='img/partner-3.png' alt='alt')
+						span.partner-list__name emea finance
+						span.partner-list__name-info Аудиторская компания
+					li.partner-list__item
+						.partner-list__item-block-img
+							a.partner-list__link(href='#')
+								img.partner-list__img(src='img/partner-4.png' alt='alt')
+						span.partner-list__name Cbonds
+						span.partner-list__name-info Аудиторская компания
+					li.partner-list__item
+						.partner-list__item-block-img
+							a.partner-list__link(href='#')
+								img.partner-list__img(src='img/partner-5.png' alt='alt')
+						span.partner-list__name Dragon Capital
+						span.partner-list__name-info Инвестиции
+					li.partner-list__item
+						.partner-list__item-block-img
+							a.partner-list__link(href='#')
+								img.partner-list__img(src='img/partner-6.png' alt='alt')
+						span.partner-list__name Мрiя
+						span.partner-list__name-info Агрохолдинг
+					li.partner-list__item
+						.partner-list__item-block-img
+							a.partner-list__link(href='#')
+								img.partner-list__img(src='img/partner-7.png' alt='alt')
+						span.partner-list__name Ukrland Farming
+						span.partner-list__name-info Аудиторская компания
+					li.partner-list__item
+						.partner-list__item-block-img
+							a.partner-list__link(href='#')
+								img.partner-list__img(src='img/partner-8.png' alt='alt')
+						span.partner-list__name Астарта-Киев
+						span.partner-list__name-info Аудиторская компания
+		section#scroll-press-center.press-center
+			nav.sub-nav
+				ul.sub-menu
+					li.sub-menu__item
+						a.sub-menu__link(href='#scroll-news') Новости
+					li.sub-menu__item
+						a.sub-menu__link(href='#scroll-pressa') Публикации в прессе
+					li.sub-menu__item
+						a.sub-menu__link(href='#scroll-press-kit') Пресс-кит
+			.small-wrapper
+				article#scroll-news.news
+					h5.fifth-header новости
+					.news__item
+						a.news__item-link-img(href='#')
+							img.news__item-img(src='img/news-1.png' alt='alt')
+						span.news__item-date 2 февраля 2015
+						a.news__item-link(href='#') Спасти посевную может целевая миссия НБУ–Козаченко
+					.news__item
+						a.news__item-link-img(href='#')
+							img.news__item-img(src='img/news-2.png' alt='alt')
+						span.news__item-date 2 февраля 2015
+						a.news__item-link(href='#') Цены на нефть поднялись до $58 за баррель
+					.news__item
+						a.news__item-link-img(href='#')
+							img.news__item-img(src='img/news-3.png' alt='alt')
+						span.news__item-date 2 февраля 2015
+						a.news__item-link(href='#') США помогут укрепить энергобезопасность Европы
+					.news__item
+						a.news__item-link-img(href='#')
+							img.news__item-img(src='img/news-4.png' alt='alt')
+						span.news__item-date 2 февраля 2015
+						a.news__item-link(href='#') Стало известно, на что Украина потратит первый транш кредита МВФ
+					.news__item
+						a.news__item-link-img(href='#')
+							img.news__item-img(src='img/news-5.png' alt='alt')
+						span.news__item-date 2 февраля 2015
+						a.news__item-link(href='#') Предоплата за газ будет зависеть от погоды и исполнения контракта "Газпромом"– Коболев
+					.news__item
+						a.news__item-link-img(href='#')
+							img.news__item-img(src='img/news-6.png' alt='alt')
+						span.news__item-date 2 февраля 2015
+						a.news__item-link(href='#') НБУ ужесточит лимиты расчета наличкой
+					.more
+						a.link-more(href='news.html') больше новостей
+			article#scroll-pressa.pressa
+				.small-wrapper
+					h5.fifth-header публикации в прессе
+					.publication
+						.publication__item
+							span.news__item-date 2 февраля 2015
+							p.publication__paragraph Вместо России. Украинские экспортеры осваивают восточные рынки
+							a.publication__link(href='#') капитал
+						.publication__item
+							span.news__item-date 2 февраля 2015
+							p.publication__paragraph Девальвация рубля не нанесет существенного ущерба экономике Украины – мнение
+							a.publication__link(href='#') униан
+						.publication__item
+							span.news__item-date 2 февраля 2015
+							p.publication__paragraph Инфляция в Украине в 2015 году замедлится в 2 раза, до 11% - эксперт
+							a.publication__link(href='#') минпром
+						.more
+							a.link-more(href='#') больше публикаций
+			article#scroll-press-kit.press-kit
+				.small-wrapper
+					.press-kit-items
+						h5.fifth-header пресс-кит
+						.left-col
+							p.left-col__paragraph-1 Справка о компании «Xinwei»: деятельность, история компании и краткая характеристика рынка, на котором работает компания.
+							p.left-col__paragraph-2 Обращаем Ваше внимание, что все пакеты Amiro.CMS доступны для бесплатного скачивания и тестирования как на локальных компьютерах так и на коммерческом хостинге.
+						.right-col
+							ul.links-list
+								li.links-list__item
+									a.links-list__item-link(href='#') Рекламный буклет "Движок вашего интернет-магазина"
+								li.links-list__item
+									a.links-list__item-link(href='#') Изображение торговой марки Amiro.CMS в цвете (cdr, ai, tiff, png)
+								li.links-list__item
+									a.links-list__item-link(href='#') Справка о компании «Амиро» (полная)
+								li.links-list__item
+									a.links-list__item-link(href='#') Справка о компании «Амиро» (сокращенная)
+								li.links-list__item
+									a.links-list__item-link(href='#') Презентация «Amiro.CMS – эффективная платформа построения сайтов электронной коммерции»
+								li.links-list__item
+									a.links-list__item-link(href='#') Изображение торговой марки Amiro.CMS в цвете (cdr, ai, tiff, png)
+								li.links-list__item
+									a.links-list__item-link(href='#') Справка о компании «Амиро» (полная)
+		section#scroll-contacts.contacts
+			.small-wrapper
+				section.caption
+					h2.secondary-header наши контакты
+					p.contacts__subtitle Мы будем рады новым знакомствам и сотрудничеству
+				.map
+					iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17099.34937024069!2d30.52280486284814!3d50.42557386929561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf1a0d9359e9%3A0x11fd1e9fc594e48a!2z0LLRg9C70LjRhtGPINCE0LLQs9C10L3QsCDQmtC-0L3QvtCy0LDQu9GM0YbRjywgMTYvMjAsINCa0LjRl9Cy!5e0!3m2!1sru!2sua!4v1503488921453" width="1000" height="430" style="border:0" allowfullscreen)
+				.communications
+					.contacts-xinwei
+						h4.contacts-header.contacts-header__bottom-line Контакты
+						p.contacts-xinwei__address
+							span.contacts-xinwei__subtitle адрес
+							| Украина, Киев,  ул. Щорса, 16/20
+						p.contacts-xinwei__cooperation
+							span.contacts-xinwei__subtitle сотрудничество 
+							span.number +38 (044) 233 34 76
+							span.number +38 (093) 567 09 89
+							a.contacts-xinwei__link(href='#') Xinwei@sale.com
+						p.contacts-xinwei__office
+							span.contacts-xinwei__subtitle офис
+							span.number +38 (044) 233 34 76
+							a.contacts-xinwei__link(href='#') Xinwei@office.com
+					.feedback
+						h4.contacts-header Написать нам
+						form(action='#' method='post')
+							input.feedback__entry(type='text' autocomplete='on' placeholder='Ваше имя')
+							input.feedback__entry(type='email' autocomplete='on' name='login' placeholder='Ваш e-mail')
+							textarea.feedback__entry.feedback__message(name='comment' placeholder='Сообщение')
+							input.feedback__button.button-filled(type='submit' value='Написать нам')
+		a(href='#scroll-top').scroll-top
+		include footer
+		script(type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+		script(type='text/javascript' src='js/slick.min.js')
+		script(type='text/javascript' src='js/main.js')

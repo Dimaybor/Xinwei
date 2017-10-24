@@ -1,0 +1,58 @@
+.news-content
+	display flex
+	justify-content space-between
+	margin-bottom 100px
+	color #222
+	
+.news__main
+	width 65%
+	font-size 17px
+	line-height 24px
+	color #222
+	
+.news__similar
+	margin-top 35px
+	width 30%
+	font-size 16px
+	
+.news__investment
+	font-size 12px
+	line-height 52px
+	
+.active-page 
+	color #d1d1d1
+	
+.news-open__header
+	font-size 24px
+	font-family "ProximaNovaBold", sans-serif
+	line-height 30px
+	
+.news-open__img
+	float left
+	margin 0 24px 24px 0
+	
+.news-open__text
+	padding-right 10px
+
+for $n in (4..5)
+	.news-open__paragraph:nth-child({$n})
+		padding-top 20px
+		
+.fifth-header--left
+	height auto
+	text-align left
+	line-height 60px
+	
+.similar-link:hover
+	text-decoration underline
+	
+.similar__el
+	display flex
+	flex-direction column
+	justify-content center
+	align-items flex-start
+	min-height 110px
+	border-top 1px solid #efefef
+	
+.similar__el:last-child
+	border-bottom 1px solid #efefef

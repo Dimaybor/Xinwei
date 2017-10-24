@@ -1,0 +1,127 @@
+.menu-open
+	position fixed
+	top 12.5px
+	left 20px
+	display none
+	width 50px
+	height 50px
+	background-color transparent
+	cursor pointer
+	text-decoration none
+
+.menu-open > span
+	position absolute
+	left 50%
+	top 50%
+	display block
+	margin-left -15px
+	margin-top -1px
+	height 3px
+	width 30px
+	border-radius 30%
+	background-color #222
+	
+.menu-open > span:first-child
+	margin-top -8px
+	transition all 0.2s
+	
+.menu-open > span:last-child
+	margin-top 6px
+	transition all 0.2s
+
+.menu-open--active > span:nth-child(2)
+	background-color transparent
+	
+.menu-open--active > span:first-child
+	margin-top 0
+	transform rotate(135deg)
+
+.menu-open--active > span:last-child
+	margin-top 0
+	transform rotate(-135deg)
+
+.header-container
+	display flex
+	justify-content space-around
+	align-items center
+
+.logo-link
+	display block
+	width 186px
+	height 63px
+
+.logo 
+	width 100%
+	height auto 
+	
+.main-nav
+	margin-right 25px
+	max-width 700px
+
+.main-menu__item
+	display flex 
+	align-items center
+	min-height 100px
+	
+.main-menu__link
+	display flex 
+	align-items center
+	padding 0 9px
+	min-height 45px
+	
+.main-menu__link:hover
+	color #0b4da3
+	
+.main-menu
+	display flex
+	font-size 14px
+	text-align center
+	color #222222
+
+.open-nav
+	display flex
+	
+.user-block
+	display flex
+	max-width 145px
+
+.user-block__link
+	display flex
+	align-items center
+	height 20px
+	
+.user-block__item
+	display flex
+	align-items center
+	padding 0 10px
+	min-height 100px
+	
+.user-block__item--indent
+	position relative
+	padding-left 8px
+
+.user-block__item--indent::before
+	content ''
+	position absolute
+	right 18px
+	top auto
+	width 5px
+	height 5px
+	border solid #0b4da3
+	border-width 0 1px 1px 0
+	transform translateY(-50%) rotate(45deg)
+	
+.choose-lang
+	width 40px
+	height 30px
+	color #0b4da3
+	background-color transparent
+	font-size 13px
+	text-transform uppercase
+	border none
+	appearance none
+	outline none
+	cursor pointer
+	
+.user-block__item:last-child
+	padding-left 0
